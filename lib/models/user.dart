@@ -3,5 +3,5 @@ class User {
   final String name;
   final int steps;
 
-  User({required this.id, required this.name, this.steps = 0});
+  const User({required this.id, required this.name, this.steps = 0});
 }
